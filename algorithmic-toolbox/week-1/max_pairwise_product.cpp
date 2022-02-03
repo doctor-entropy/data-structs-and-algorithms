@@ -35,9 +35,12 @@ long MaxPairwiseProductFast(const std::vector<long>& numbers) {
 }
 
 int main() {
+
     long n;
+
     std::cin >> n;
     std::vector<long> numbers(n);
+
     for (int i = 0; i < n; ++i) {
         std::cin >> numbers[i];
     }
